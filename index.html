@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Collection</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #5a8d5a; /* A greenish color for titles */
+            text-align: center;
+        }
+        h2 {
+            color: #444;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #e9f5e9; /* Light green background for list items */
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        li a {
+            text-decoration: none;
+            color: #337ab7;
+            font-weight: bold;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
+        .instructions {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #fffacd; /* Light yellow for instructions box */
+            border: 1px solid #f0e68c;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Recipe Collection</h1>
+
+        <h2>Available Recipes</h2>
+        <ul>
+            <li><a href="recipe-template.html">Example: View Recipe Template (Replace this link later)</a></li>
+            <!--
+            When you add a new recipe (e.g., my-pasta-dish.html),
+            add a new list item here like this:
+            <li><a href="my-pasta-dish.html">My Awesome Pasta Dish</a></li>
+            -->
+        </ul>
+
+        <div class="instructions">
+            <h3>How to Add New Recipes</h3>
+            <p>To add a new recipe:</p>
+            <ol>
+                <li>Make a copy of the <code>recipe-template.html</code> file.</li>
+                <li>Rename the copied file to something descriptive (e.g., <code>chocolate-cake.html</code>). Make sure it ends with <code>.html</code>.</li>
+                <li>Open the new HTML file in a text editor.</li>
+                <li>Replace all the placeholder text (like "[Recipe Title Placeholder]", "[Ingredient 1 Placeholder with quantity]", etc.) with the actual details for your recipe.</li>
+                <li>Save the changes to your new recipe file.</li>
+                <li>Open this <code>index.html</code> file in a text editor.</li>
+                <li>Add a new line in the "Available Recipes" list above, like this: <br>
+                    <code>&lt;li&gt;&lt;a href="your-new-recipe-file.html"&gt;Name of Your Recipe&lt;/a&gt;&lt;/li&gt;</code><br>
+                    (Replace <code>your-new-recipe-file.html</code> with the actual filename and "Name of Your Recipe" with its title).</li>
+                <li>Save this <code>index.html</code> file.</li>
+            </ol>
+            <p>Now, when you open <code>index.html</code> in a web browser, you should see a link to your new recipe!</p>
+        </div>
+
+    </div>
+</body>
+</html>
